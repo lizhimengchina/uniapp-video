@@ -1,0 +1,37 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "唐诗三百首",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "唐诗三百首"
+			}
+		},
+		{
+			"path": "pages/player/index",
+			"style": {
+				"navigationBarTitleText": "唐诗三百首"
+			}
+		},
+		{
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "唐诗三百首"
+			}
+		}
+    ],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "#F8F8F8",
+		"navigationBarTitleText": "唐诗三百首",
+		"navigationBarBackgroundColor": "#f55500",
+		"backgroundColor": "#f55500"
+	}
+}
